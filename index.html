@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>TechConnect Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">TechConnect Solutions</div>
+    <div class="menu">
+      <div class="menu-item"><a href="#">Home</a></div>
+      <div class="menu-item"><a href="#">Services</a></div>
+      <div class="menu-item"><a href="#">Products</a></div>
+      <div class="menu-item"><a href="#">About</a></div>
+      <div class="menu-item"><a href="#">Contact</a></div>
+    </div>
+  </div>
+
+  <div class="main-banner">
+    <img src="banner.jpg" width="100%">
+    <div class="banner-text">Next Generation IT Solutions For Your Business</div>
+  </div>
+
+  <div class="content-section">
+    <div class="section-title">Our Services</div>
+
+    <div class="services-container">
+      <div class="service-box">
+        <div class="service-icon">
+          <img src="cloud.png">
+        </div>
+        <div class="service-title">Cloud Solutions</div>
+        <div class="service-desc">Cutting-edge cloud infrastructure to power your business operations seamlessly.</div>
+        <div class="service-button" onclick="showServiceDetails('cloud')">Learn More</div>
+      </div>
+
+      <div class="service-box">
+        <div class="service-icon">
+          <img src="security.png">
+        </div>
+        <div class="service-title">Cybersecurity</div>
+        <div class="service-desc">Advanced security protocols to keep your business data safe and secure.</div>
+        <div class="service-button" onclick="showServiceDetails('security')">Learn More</div>
+      </div>
+
+      <div class="service-box">
+        <div class="service-icon">
+          <img src="webapp.png">
+        </div>
+        <div class="service-title">Web Applications</div>
+        <div class="service-desc">Custom web applications designed to meet your specific business needs.</div>
+        <div class="service-button" onclick="showServiceDetails('webapp')">Learn More</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-section">
+    <div class="section-title">Why Choose Us</div>
+
+    <table class="features-table">
+      <tr>
+        <td><b>Fast Delivery</b></td>
+        <td>Our optimized workflow ensures quick turnaround times for all projects.</td>
+      </tr>
+      <tr>
+        <td><b>Expert Support</b></td>
+        <td>24/7 technical support from our team of certified professionals.</td>
+      </tr>
+      <tr>
+        <td><b>Affordable Pricing</b></td>
+        <td>Competitive rates without compromising on quality or service.</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="testimonial-section">
+    <div class="testimonial">
+      <div class="client-quote">"TechConnect transformed our business operations with their innovative solutions."</div>
+      <div class="client-name">- John Smith, CEO of Global Innovations</div>
+    </div>
+  </div>
+
+  <div class="contact-form">
+    <div class="form-title">Contact Us</div>
+    <form>
+      <div>
+        <input type="text" placeholder="Name">
+      </div>
+      <div>
+        <input type="text" placeholder="Email">
+      </div>
+      <div>
+        <input type="text" placeholder="Phone">
+      </div>
+      <div>
+        <textarea placeholder="Message"></textarea>
+      </div>
+      <div>
+        <button type="button" onclick="submitForm()">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="footer">
+    <div class="company-info">
+      <div>TechConnect Solutions</div>
+      <div>123 Tech Avenue, Digital City</div>
+      <div>info@techconnectsolutions.com</div>
+    </div>
+    <div class="footer-links">
+      <div><a href="#">Privacy Policy</a></div>
+      <div><a href="#">Terms of Service</a></div>
+      <div><a href="#">Careers</a></div>
+    </div>
+    <div class="copyright">Copyright 2025. All rights reserved.</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
